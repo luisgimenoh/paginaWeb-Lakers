@@ -1,0 +1,713 @@
+
+/* PAGINA PRINCIPAL MENU Y FOOTER */
+/* Fuente Rubik */
+html{
+    font-family: 'Rubik', sans-serif;
+}
+/* Estilos para el NavBar */
+#menu ul li {
+    background-color: #000000;
+    width: 195px;
+}
+#menu ul li ul li {
+    width: 170px;
+}
+
+#menu{
+    float: right;
+}
+#menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul a {
+    text-align: center;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 10px;
+    /* border: solid red; */
+    margin: 20px 20px 15px 0px ;
+}
+/* Botones de idioma son mas pequeños */
+#menu ul li.idioma{
+    width: auto;
+    padding: 0;
+}
+#menu ul li.idioma a:hover{
+    background: black;
+}
+#menu ul li {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul li a:hover {
+    background: #151515;
+    /* Color Alternativo: 2a2929 */
+}
+
+#menu ul ul {
+    display: none;
+    position: absolute;
+}
+
+#menu ul ul li {
+    float: none;
+}
+
+#menu ul ul a {
+    display: block;
+    padding: 10px 15px;
+    /* border: solid red; */
+    margin: 0;
+    font-size: 20px;
+}
+
+#menu ul li:hover>ul {
+    display: block;
+}
+/* Capa de NavBar */
+#navegador{
+    padding-top: 20px;
+    background-color: #000000;
+    height: 110px;
+    width: 100%;
+}
+/* Fin configuracion de NavBar */
+
+/* Quita espacios de sobra */
+body{
+    margin: 0;
+}
+/* Ajusta el logo */
+img.logo{
+    padding: 10px;
+    margin-left: 100px;
+}
+
+/* Seccion de equipacion */
+div.equipacion img{
+    margin-left: 110px;
+}
+div.equipacion h1{
+    text-align: center;
+}
+/* Seccion de entradas */
+div.entradas{
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+div.entradas img.img1{
+    margin-left: 110px;
+    float: left;
+    padding-top: 30px;
+}
+div.entradas img.img2{
+    padding-top: 30px;
+    margin-right: 550px;
+    float: right;
+}
+div.entradas h1{
+    text-align: center;
+}
+div.entradas p{
+    float: right;
+    font-size: 32px;
+    width: 1000px;
+    padding-right: 50px;
+    text-align: center;
+}
+hr{
+    width: 50%;
+}
+hr.completo{
+    clear: both;
+    width: 95%;
+}
+/* Seccion partidas */
+div.partidas{
+    background-image: url(../img/staplesCenter_filtro2.jpg);
+    background-size: cover;
+    clear: both;
+    margin-top: 450px;
+    padding: 30px 0 200px 0;
+
+}
+div.partidas h1{
+    color: white;
+    margin-left:300px;
+    margin-top: 50px;
+    font-size: xxx-large;
+}
+div.partidas img{
+    width: 250px;
+    height: 250px;
+}
+div.partidas img.der{
+    float: right;
+}
+div.partidas div.num1{
+    color: white;
+    float: left;
+    margin-left: 400px;
+    margin-top: 70px;
+    font-size: large;
+    padding: 0 25px 0 25px;
+    background-color: green;
+    
+}
+div.partidas div.num2{
+    background-color: orange;
+    color: white;
+    float: right;
+    margin-right: 400px;
+    margin-top: 70px;
+    padding: 0 25px 0 25px;
+    font-size: large;
+}
+div.partidas button{
+    clear: both;
+    float: right;
+    margin-right: 400px;
+    margin-top: 50px;
+    padding: 10px;
+    background-color: wheat;
+    border-radius: 18px;
+    width: 210px;
+    font-size: x-large;
+}
+
+/* Estilos de app movil */
+div.app{
+    clear: both;
+    padding-bottom: 600px;
+
+}
+div.app img.movil{
+    margin-left: 250px;
+    position: absolute;
+    top: 3250px;
+}
+div.app img.app{
+    clear: both;
+    margin-top: 100px;
+    width: 120px;
+    height: 120px;
+}
+div.app div.descarga{
+    clear: both;
+    float: right;
+    width: 1000px;
+    text-align: center;
+    align-items: center;
+    font-size: large;
+    padding-right: 50px;
+}
+div.app p{
+    clear: both;
+}
+div.app button{
+    border-radius: 5px;
+    padding: 5px;
+    clear: both;
+}
+/* Footer de la pagina */
+footer{
+    text-align: center;
+    margin:20px 0 20px 0;
+}
+footer div.col{
+    display: inline-block;
+    vertical-align: top;
+    width: 450px;
+    text-align: center;
+}
+footer div img{
+    margin: 0px 5px 0 5px;
+}
+
+
+
+
+/* PAGINA PLAYERS/JUGADORES */
+/*JUGADOR 1*/
+div.jugador1{
+    width: 1895px;
+    height: 619px;
+    background: url(../img/p2_player/players_fondo1.png);
+    margin-top: 50px;
+    margin-bottom: 0px;
+    padding: 0;
+}
+
+div.jugador1 div.foto1{
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+div.jugador1 div.texto_jugador1{
+    float: right;
+    width: 790px;
+    height: 569px;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+div.jugador1 h1{
+    text-align: right;
+    font-style: italic;
+    margin-right: 60px;
+    font-size: xxx-large;
+    color: #8C52FF;
+}
+div.jugador1 ul{
+    list-style: none;
+}
+
+div.jugador1 div.info_jugador1{
+    background-color: #8C52FF;
+    box-shadow: 10px 10px #5E17EB;
+    margin: 0 50px 0 50px;
+    align-content: center;
+    padding: 25px;
+    font-size: large;
+    text-align: center;
+    color: white;
+}
+div.jugador1 div.stats_jugador1{
+    background-color: #FF914D;
+    box-shadow: 10px 10px #D35400;
+    float: left;
+    margin: 40px 0px 0 50px;
+    align-content: center;
+    padding: 25px;
+    font-size: large;
+    color: white;
+    width: 280px;
+    height: 150px;
+}
+div.jugador1 div.trajectory_jugador1{
+    background-color: #F4BA27;
+    box-shadow: 10px 10px #D9A40E;
+    float: right;
+    margin: 40px 50px 0 0px;
+    align-content: center;
+    padding: 25px;
+    font-size: large;
+    width: 280px;
+    height: 150px;
+    color: white;
+}
+/*JUGADOR 2*/
+div.jugador2{
+    width: 1895px;
+    height: 619px;
+    background: url(../img/p2_player/players_fondo2.png);
+    margin-top: 14px;
+    margin-bottom: 0px;
+    padding: 0;
+}
+
+div.jugador2 div.foto2{
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+div.jugador2 div.texto_jugador2{
+    float: left;
+    width: 790px;
+    height: 569px;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+div.jugador2 h1{
+    text-align: left;
+    font-style: italic;
+    margin-left: 60px;
+    font-size: xxx-large;
+    color: #F4BA27;
+}
+div.jugador2 ul{
+    list-style: none;
+}
+
+div.jugador2 div.info_jugador2{
+    background-color: #F4BA27;
+    box-shadow: 10px 10px #D9A40E;
+    margin: 0 50px 0 50px;
+    align-content: center;
+    padding: 25px;
+    font-size: large;
+    text-align: center;
+    color: white;
+}
+div.jugador2 div.stats_jugador2{
+    background-color: #FF914D;
+    box-shadow: 10px 10px #D35400;
+    float: left;
+    margin: 40px 0px 0 50px;
+    align-content: center;
+    padding: 25px;
+    font-size: large;
+    color: white;
+    width: 280px;
+    height: 150px;
+}
+div.jugador2 div.trajectory_jugador2{
+    background-color: #8C52FF;
+    box-shadow: 10px 10px #5E17EB;
+    float: right;
+    margin: 40px 50px 0 0px;
+    align-content: center;
+    padding: 25px;
+    font-size: large;
+    width: 280px;
+    height: 150px;
+    color: white;
+}
+/*RESTO DE JUGADORES*/
+div.resto_jugadores{
+    width: 1895px;
+    height: 800px;
+    background-color: #FFDE59;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0;
+}
+div.titulares{
+    float: left;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+div.suplentes{
+    float: right;
+    text-align: center;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+div.suplentes div.suplentes_fila{
+    text-align: center;
+}
+img.foto3{
+    background-color:#FFFFEC ;
+    border-radius: 100%;
+}
+div.titulares_fila img{
+    width: 267px;
+    height: 195px;
+    background-color: #FFFFEC;
+    border-radius: 100%;
+}
+div.suplentes_fila  img{
+    width: 170px;
+    height: 124px;
+    background-color: #FFFFEC;
+    border-radius: 100%;
+}
+div.titulares div.titulares_fila{
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px;
+}
+div.suplentes  div.suplentes_fila{
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+}
+
+/*Margin respecto a titulos*/
+div.titulares div.jugador3{
+    margin-top: 50px;
+}
+div.suplentes div{
+    margin-top: 50px;
+}
+
+/*Resto jugadores - titulos, nombres y apellidos*/
+div.titulares h2{
+    width: 200px;
+    height: 55px;
+    background-color: white;
+    margin: auto;
+    padding-top: 30px;
+    border-bottom: solid red 10px;
+}
+div.suplentes h2{
+    width: 200px;
+    height: 55px;
+    background-color: white;
+    margin: auto;
+    padding-top: 30px;
+    border-bottom: solid blue 10px;
+}
+div.titulares_fila p{
+    width: 267px;
+    height: 30px;
+    margin: 0px;
+    background-color: white;
+}
+div.suplentes_fila p{
+    width: 170px;
+    height: 25px;
+    margin: 0px;
+    background-color: white;
+}
+div.jugador3 p{
+    width: 260px;
+    height: 30px;
+    margin: 0px;
+    margin-left: 185px;
+    background-color: white;
+}
+/*
+p.apellido_amarillo{
+    border-bottom: solid #F4BA27 5px;
+}
+*/
+p.apellido_morado{
+    border-bottom: solid #8C52FF 5px;
+}
+
+/*ENTRENADORES*/
+/*ENTRENADORES - Entrenador 1*/
+div.entrenador1{
+    width: 1895px;
+    height: 619px;
+    background: url(../img/p2_coaches/coaches_fondo1.png);
+    margin-top: 50px;
+    margin-bottom: 0;
+    padding: 0;
+}
+div.entrenador1_foto{
+    float: left;
+    margin-top: 15px;
+    margin-left: 100px;
+    margin-bottom: 0;
+    padding: 0;
+}
+div.entrenador1_texto{
+    float: right;
+    width: 790px;
+    height: 569px;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+div.entrenador1_texto h1{
+    text-align: right;
+    font-style: italic;
+    margin-right: 60px;
+    font-size: xxx-large;
+    color: #544BDB;
+}
+div.entrenador1_info{
+    float: right;
+    background-color:  #544BDB;
+    box-shadow: 10px 10px #5270FF;
+    margin: 0 50px 0 50px;
+    align-content: center;
+    padding: 25px;
+    padding-top: 60px;
+    font-size: large;
+    text-align: center;
+    color: white;
+    width: 1000px;
+    height: 100px;
+}
+div.entrenador1_trayectory{
+    float: right;
+    background-color: #F4BA27;
+    box-shadow: 10px 10px #D9A40E;
+    float: right;
+    margin: 40px 50px 0 0px;
+    align-content: center;
+    padding: 25px;
+    font-size: large;
+    color: white;
+    width: 1000px;
+    height: 170px;
+}
+div.entrenador1_trayectory h2{
+    text-align: center;
+    font-size: xx-large;
+}
+/*ENTRENADORES - Entrenador 2*/
+div.entrenador2{
+    width: 1895px;
+    height: 619px;
+    background: url(../img/p2_coaches/coaches_fondo2b.png);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 50px;
+}
+div.entrenador2_foto{
+    float: right;
+    margin-top: 15px;
+    margin-right: 100px;
+    margin-bottom: 0px;
+    padding: 0;
+}
+div.entrenador2_texto{
+    float: left;
+    width: 790px;
+    height: 569px;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    
+}
+div.entrenador2_texto h1{
+    text-align: left;
+    font-style: italic;
+    margin-left: 60px;
+    font-size: xxx-large;
+    color: #544BDB;
+}
+div.entrenador2_info{
+    background-color:  #544BDB;
+    box-shadow: 10px 10px #5270FF;
+    margin: 0 50px 0 50px;
+    align-content: center;
+    padding: 25px;
+    font-size: large;
+    text-align: center;
+    color: white;
+}
+div.entrenador2_trayectory{
+    float: right;
+    background-color: #F4BA27;
+    box-shadow: 10px 10px #D9A40E;
+    margin: 40px 50px 0 0px;
+    align-content: center;
+    padding: 25px;
+    font-size: large;
+    width: 640px;
+    height: 150px;
+    color: white;
+}
+/*EQUIPACIÓN*/
+/*MODELOS - Sección 1*/
+img.modelos{
+    display: inline-block;
+    vertical-align: top;
+    margin: 90px;
+    
+}
+/*CAMISETAS CLASICAS - Sección 2*/
+div.equipacion_classics{
+    width: 100%;
+    height: 700px;
+    margin-top: 200px;
+}
+div.equipacion_classics_camisetas{
+    float: left;
+    text-align: center;
+    margin-top: 10px;
+    padding-left: 150px;
+}
+img.camisetas_fila{
+    display: inline-block;
+    vertical-align: top;
+    margin: 100px;
+}
+div.equipacion_classics_texto{
+    float: right;
+    width: 400px;
+    height: 500px;
+    margin-top: 90px;
+    margin-right: 200px;
+    text-align: center;
+}
+#camiseta_amarilla{
+    background-color: #E6D583;
+    border-radius: 100%;
+}
+#camiseta_morada{
+    background-color: #6A4A79;
+    border-radius: 100%;
+}
+#camiseta_blanca{
+    background-color: #E4E4E3;
+    border-radius: 100%;
+}
+div.equipacion_classics_texto h2{
+    color: #6A4A79;
+    font-style: italic;
+    font-size: 300%;
+}
+div.equipacion_classics_texto p{
+    font-size: 150%;
+}
+/*CAMISETAS EXTRA - Sección 3*/
+div.equipacion_extra{
+    margin-top: 200px;
+    margin-bottom: 300px;
+}
+
+div.equipacion_extra_negra{
+    float: left;
+    margin: 100px;
+}
+div.equipacion_extra_negra img{
+    float: left;
+}
+div.camiseta_negra_texto{
+    width: 400px;
+    float: right;
+    padding-left: 100px;
+    text-align: center;
+
+}
+div.camiseta_negra_texto h2{
+    font-size: 200%;
+    font-style: italic;
+}
+div.camiseta_negra_texto p{
+    font-size: 120%;
+}
+div.equipacion_extra_negra img{
+    background-color: #F2C927;
+    border-radius: 100%;
+}
+
+
+div.equipacion_extra_azul{
+    float: right;
+    margin: 90px;
+}
+div.equipacion_extra_azul img{
+    float: left;
+}
+div.camiseta_azul_texto{
+    width: 400px;
+    float: right;
+    padding-left: 100px;
+    text-align: center;
+}
+div.camiseta_azul_texto h2{
+    font-size: 200%;
+    font-style: italic;
+    color: #395C86;
+}
+div.camiseta_azul_texto p{
+    font-size: 120%;
+}
+div.equipacion_extra_azul img{
+    background-color: #38B6FF;
+    border-radius: 100%;
+}
